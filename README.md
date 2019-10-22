@@ -41,10 +41,10 @@ Listar todas las ramas locales en el repositorio actual
 `git branch`
 
 Crear una nueva rama
-`git branch [branch-name]`
+`git branch -b [branch-name]`
 
 Cambiar a una rama y actualizar el directorio de trabajo
-`git checkout -b [branch-name]`
+`git checkout [branch-name]`
 
 Combinar una rama especificada con la actual
 `git merge [branch-name]`
